@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="com_google_android_gms_fonts_certs">
+        <item>@array/com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod</item>
+    </array>
+    <string-array name="com_google_android_gms_fonts_certs_dev">
+        <item>
+            MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTAeFw0wODA0MTUyMzM2NTZaFw0zNTA5MDEyMzM2NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBANbOLggKv+IxTdGNs8/TGFy0PTP6DHThvttR1/w5qqX1nnA+lnDhHr30JgB+Y7o+ZRD0aZDBAf3DGkwJAFh3l1UCsgFBbcALQTsNxGDtjkGnWw65q1aNoNB8vhNzQj7YW6uK0aWJSBfbI7zGkQ9LnULBBkAtZXeNTXM8BYczZhMBrSIv2RGNAbG9kN6BHh3MlA/1+d9XPelBZ5QBQB4DW+ysqiOSqBGvOicRFPkwCJm3AE4eJajvtmD2jSJY5o5kEjHLMVW4LzJCBIAMGiMJYHHMtWR6PfhpNJ6KSlT5Y2S/E0jAbhHw3iNwu7bfhMmTrqv1GrpDDhYnMR2EjfkMIBAgMBAAGjgdIwgc8wHQYDVR0OBBYEFMiDo0l06aBo48IhO23f6RbxH4uqMIGfBgNVHSMEgZcwgZSAFMiDo0l06aBo48IhO23f6RbxH4uqqYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbYIJANWFuGx90071MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEEBQADggEBABnTDPEF+3iSP0wNyuQLpFjcGIndZO7t+pNfURLuSR0ra0kFlprqa5W9usHqWnjoshsKuEf+QafeNAU3hp2UrYsGRYsWQMoJpB5FPbzqRbkfD0tCVj6bVEfGbRHfN6QpIbE+sAc2vRhMOvt8lgDqHXt4gGy/SIX4b2bYXvLU8UZzAbzakXp3b0xv6LZqq9uW77aPE2XeAlwZnHMjZLHTl1+m0cGJnbj0MsQ90WnEUFMt2U16ufN+pOqT8FTUm0iT7QaMNIFoVrA3lCJfp0xkCfIk6rY8W5j5X9V+KqvjFEMiHGlLTdODxADuvJAKHLdL8wWk+ql8I=
+        </item>
+    </string-array>
+    <string-array name="com_google_android_gms_fonts_certs_prod">
+        <item>
+            MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0uXMlONTs63MqPKEPiWQoLRRqhM9/4R8e0kP9oBBlwrF4S8toWZS4q5F0oHfnLFm01r2Mn68VTu2m1S0Oz0I0LQKBFY8BPqH7M0mM34bGtbrm/AV9K5a9dREQfRMc+ZGlDHE3qlm4V3Zj1X3blLEbJjEJBH7iyMWw3IiQoHnV+nBJEHC9jJJRX5YXZM7yZlQ2pJbEpxqxJG3+cWnp4IAGDG0ycWflX2Oi8J/mSxq8g5XQVZ4Y3CMT1pS3iN8nJD3k+NNnB5hCpXzFrVzHFJJq0/+QfBl9DRfXy9lQFSepjXjNVf8i1PGBR9ikYCAgMBAAGjgdIwgc8wHQYDVR0OBBYEFL8EDx/KI/8GCCY6o2bWkEnJxfpGMIGfBgNVHSMEgZcwgZSAFL8EDx/KI/8GCCY6o2bWkEnJxfpGqYGapIGXMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZIIJAMLgh0ZkSjCNMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEEBQADggEBABR5FDfXUhUxhB2UEDzphlnqVH/B7MiRFn+6KDzJnABjLVvVWGz4QnFp5r4mPfWH5a09dpSF5bJyZ4xyQkHnJBIzCeIYh1hJFMtlSNJBd34Ap2pLpBb37lYuUQJyZLtUZ6tpfD+m1TtM9Rl5xYuRXMcBZsQH4w8C9nNQinXB0YiuPV/4C1AaBh8y3LONi/hpRSC5MxeEo0c/xFGiqhNuH0l5T7aLIFv5VXTJmLaLPHV6MTaLU1Y0A1JTuMBbTe0JtVYEi7cC7LJDhxEKuJiilLIpO+P7v8XMh7v6fY/W3aWNBPOsRQ9T+w3oMQ8=
+        </item>
+    </string-array>
+    <color name="background">#FAFAFA</color>
+    <color name="green_light">#C8E6C9</color>
+    <color name="green_primary">#2E7D32</color>
+    <color name="green_secondary">#66BB6A</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <string name="app_name">Grocery</string>
+    <string name="cart_empty">Your cart is empty</string>
+    <string name="cat_bakery">Bakery</string>
+    <string name="cat_dairy">Dairy</string>
+    <string name="cat_fruits">Fruits</string>
+    <string name="cat_grocery">Groceries</string>
+    <string name="cat_meat">Meat &amp; Poultry</string>
+    <string name="cat_vegetables">Vegetables</string>
+    <string name="categories_title">Food Products</string>
+    <string name="favorites_empty">No favorites yet</string>
+    <string name="gcm_defaultSenderId" translatable="false">000000000000</string>
+    <string name="google_api_key" translatable="false">REPLACE_WITH_YOUR_FIREBASE_API_KEY</string>
+    <string name="google_app_id" translatable="false">1:000000000000:android:0000000000000000</string>
+    <string name="google_crash_reporting_api_key" translatable="false">REPLACE_WITH_YOUR_FIREBASE_API_KEY</string>
+    <string name="google_storage_bucket" translatable="false">grocery-app-placeholder.appspot.com</string>
+    <string name="loading">Loading…</string>
+    <string name="menu_about">About App</string>
+    <string name="menu_contact">Contact Us</string>
+    <string name="menu_favorites">Favorites</string>
+    <string name="menu_offers">Special Offers</string>
+    <string name="menu_orders">My Orders</string>
+    <string name="menu_profile">My Profile</string>
+    <string name="nav_cart">Cart</string>
+    <string name="nav_categories">Sections</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_menu">Menu</string>
+    <string name="nav_more">More</string>
+    <string name="nav_offers">Offers</string>
+    <string name="nav_settings">Settings</string>
+    <string name="orders_empty">No orders yet</string>
+    <string name="profile_address">Full Address</string>
+    <string name="profile_city">City</string>
+    <string name="profile_country">Country</string>
+    <string name="profile_dob">Date of Birth</string>
+    <string name="profile_edit">Edit Profile</string>
+    <string name="profile_first_name">First Name</string>
+    <string name="profile_last_name">Last Name</string>
+    <string name="profile_phone">Phone Number</string>
+    <string name="profile_photo">Change Photo</string>
+    <string name="profile_postal_code">Postal Code</string>
+    <string name="profile_save">Save</string>
+    <string name="profile_saved">Saved successfully ✓</string>
+    <string name="profile_street_name">Street Name</string>
+    <string name="profile_street_number">Street Number</string>
+    <string name="profile_title">My Profile</string>
+    <string name="project_id" translatable="false">grocery-app-placeholder</string>
+    <string name="retry">Retry</string>
+    <string name="search_placeholder">Search for a product…</string>
+    <string name="settings_about">About App</string>
+    <string name="settings_about_version">Version 1.0.0</string>
+    <string name="settings_contact">Contact Us</string>
+    <string name="settings_contact_desc">We\'re here to help you</string>
+    <string name="settings_language">Choose Language</string>
+    <string name="settings_profile">My Profile</string>
+    <string name="settings_profile_email">ahmed@example.com</string>
+    <string name="settings_profile_name">Ahmed Mohamed</string>
+    <string name="special_offer_button">Shop Now</string>
+    <string name="special_offer_subtitle">Get 20% off on your first order today</string>
+    <string name="special_offer_title">Special Offer!</string>
+    <string name="tab_favorites">Favorites</string>
+    <string name="tab_orders">My Orders</string>
+    <style name="Theme.GroceryApp" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:navigationBarColor">@color/surface</item>
+    </style>
+</resources>

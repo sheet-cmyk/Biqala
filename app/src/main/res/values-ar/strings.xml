@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">بقالة</string>
+
+    <string name="nav_cart">السلة</string>
+    <string name="nav_home">الرئيسية</string>
+    <string name="nav_categories">الأقسام</string>
+    <string name="nav_offers">العروض</string>
+    <string name="nav_more">المزيد</string>
+    <string name="nav_settings">ضبط</string>
+    <string name="nav_menu">القائمة</string>
+    <string name="categories_title">المواد الغذائية</string>
+
+    <string name="search_placeholder">ابحث عن منتج…</string>
+    <string name="loading">جارٍ التحميل…</string>
+    <string name="retry">إعادة المحاولة</string>
+
+    <string name="cat_vegetables">خضروات</string>
+    <string name="cat_fruits">فواكه</string>
+    <string name="cat_meat">لحوم ودواجن</string>
+    <string name="cat_dairy">منتجات الألبان</string>
+    <string name="cat_grocery">مواد غذائية</string>
+    <string name="cat_bakery">مخبوزات</string>
+
+    <string name="cart_empty">سلتك فارغة</string>
+    <string name="tab_orders">طلباتي</string>
+    <string name="tab_favorites">المفضلة</string>
+    <string name="orders_empty">لا توجد طلبات بعد</string>
+    <string name="favorites_empty">لا توجد مفضلات بعد</string>
+
+    <string name="settings_language">اختر اللغة</string>
+    <string name="settings_profile">ملفي الشخصي</string>
+    <string name="settings_contact">تواصل معنا</string>
+    <string name="settings_about">عن التطبيق</string>
+    <string name="settings_profile_name">أحمد محمد</string>
+    <string name="settings_profile_email">ahmed@example.com</string>
+    <string name="settings_contact_desc">نحن هنا لمساعدتك</string>
+    <string name="settings_about_version">الإصدار 1.0.0</string>
+
+    <string name="profile_title">ملفي الشخصي</string>
+    <string name="profile_photo">تغيير الصورة</string>
+    <string name="profile_first_name">الاسم</string>
+    <string name="profile_last_name">اللقب</string>
+    <string name="profile_dob">تاريخ الميلاد</string>
+    <string name="profile_address">العنوان الكامل</string>
+    <string name="profile_street_name">اسم الشارع</string>
+    <string name="profile_street_number">رقم</string>
+    <string name="profile_postal_code">الرمز البريدي</string>
+    <string name="profile_city">اسم المدينة</string>
+    <string name="profile_country">الدولة</string>
+    <string name="profile_phone">رقم الهاتف</string>
+    <string name="profile_save">حفظ</string>
+    <string name="profile_saved">تم الحفظ بنجاح ✓</string>
+    <string name="profile_edit">تعديل الملف الشخصي</string>
+
+    <string name="special_offer_title">عرض خاص!</string>
+    <string name="special_offer_subtitle">احصل على خصم 20% على أول طلب لك اليوم</string>
+    <string name="special_offer_button">تسوق الآن</string>
+
+    <string name="menu_offers">العروض الخاصة</string>
+    <string name="menu_profile">ملفي الشخصي</string>
+    <string name="menu_orders">طلباتي</string>
+    <string name="menu_favorites">المفضلة</string>
+    <string name="menu_contact">تواصل معنا</string>
+    <string name="menu_about">عن التطبيق</string>
+</resources>

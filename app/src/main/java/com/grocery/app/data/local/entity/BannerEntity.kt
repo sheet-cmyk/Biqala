@@ -1,0 +1,18 @@
+package com.grocery.app.data.local.entity
+
+import androidx.room.Entity
+import androidx.room.PrimaryKey
+
+@Entity(tableName = "banners")
+data class BannerEntity(
+    @PrimaryKey val id: String,
+    val titleAr: String,
+    val titleEn: String,
+    val subtitleAr: String,
+    val subtitleEn: String,
+    val buttonTextAr: String,
+    val buttonTextEn: String,
+    val imageUrl: String,
+    val actionRoute: String = "",
+    val updatedAt: Long = System.currentTimeMillis()
+)
