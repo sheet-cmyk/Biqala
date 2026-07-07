@@ -8,9 +8,11 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.navigation.NavGraph.Companion.findStartDestination
 import androidx.navigation.compose.*
+import com.google.firebase.auth.FirebaseAuth
 import com.grocery.app.presentation.cart.CartScreen
 import com.grocery.app.presentation.grocerydetails.GroceryDetailsScreen
 import com.grocery.app.presentation.home.HomeScreen
+import com.grocery.app.presentation.login.LoginScreen
 import com.grocery.app.presentation.profile.ProfileScreen
 import com.grocery.app.presentation.settings.SettingsScreen
 import com.grocery.app.ui.components.GroceryBottomNavigation
@@ -21,7 +23,11 @@ fun AppNavigation() {
     val navBackStackEntry by navController.currentBackStackEntryAsState()
     val currentRoute = navBackStackEntry?.destination?.route
 
+    val isLoggedIn = FirebaseAuth.getInstance().currentUser != null
+    val startDestination = if (isLoggedIn) Screen.Home.route else Screen.Login.route
+
     val hideBottomBar = currentRoute in listOf(
+        Screen.Login.route,
         Screen.Profile.route,
         Screen.Settings.route,
         Screen.GroceryDetails.route
@@ -44,13 +50,20 @@ fun AppNavigation() {
     ) { innerPadding ->
         NavHost(
             navController = navController,
-            startDestination = Screen.Home.route,
+            startDestination = startDestination,
             modifier = Modifier.padding(innerPadding),
             enterTransition  = { fadeIn(tween(280))  + slideInHorizontally(tween(280))  { it / 10 } },
             exitTransition   = { fadeOut(tween(200)) },
             popEnterTransition  = { fadeIn(tween(280)) },
             popExitTransition   = { fadeOut(tween(200)) + slideOutHorizontally(tween(280)) { it / 10 } }
         ) {
+            composable(Screen.Login.route) {
+                LoginScreen(onLoginSuccess = {
+                    navController.navigate(Screen.Home.route) {
+                        popUpTo(Screen.Login.route) { inclusive = true }
+                    }
+                })
+            }
             composable(Screen.Home.route) {
                 HomeScreen(onCategoryClick = { categoryId ->
                     if (categoryId == "5") navController.navigate(Screen.GroceryDetails.route)

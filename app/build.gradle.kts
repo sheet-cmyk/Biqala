@@ -12,7 +12,7 @@ android {
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.grocery.app"
+        applicationId = "com.Biqala.AL.Zain"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
@@ -90,6 +90,10 @@ dependencies {
 
     // Google Fonts
     implementation(libs.google.fonts)
+
+    // Google Sign-In
+    implementation(libs.play.services.auth)
+    implementation(libs.kotlinx.coroutines.play.services)
 
     // Tests
     testImplementation(libs.junit)
