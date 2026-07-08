@@ -12,6 +12,7 @@ import com.google.firebase.auth.FirebaseAuth
 import com.grocery.app.presentation.cart.CartScreen
 import com.grocery.app.presentation.grocerydetails.GroceryDetailsScreen
 import com.grocery.app.presentation.home.HomeScreen
+import com.grocery.app.presentation.dairydetails.DairyDetailsScreen
 import com.grocery.app.presentation.login.LoginScreen
 import com.grocery.app.presentation.profile.ProfileScreen
 import com.grocery.app.presentation.settings.SettingsScreen
@@ -30,7 +31,8 @@ fun AppNavigation() {
         Screen.Login.route,
         Screen.Profile.route,
         Screen.Settings.route,
-        Screen.GroceryDetails.route
+        Screen.GroceryDetails.route,
+        Screen.DairyDetails.route
     )
 
     val navigateTo: (Screen) -> Unit = { screen ->
@@ -66,7 +68,10 @@ fun AppNavigation() {
             }
             composable(Screen.Home.route) {
                 HomeScreen(onCategoryClick = { categoryId ->
-                    if (categoryId == "5") navController.navigate(Screen.GroceryDetails.route)
+                    when (categoryId) {
+                        "5" -> navController.navigate(Screen.GroceryDetails.route)
+                        "4" -> navController.navigate(Screen.DairyDetails.route)
+                    }
                 })
             }
             composable(Screen.Cart.route)     { CartScreen() }
@@ -78,6 +83,9 @@ fun AppNavigation() {
             }
             composable(Screen.GroceryDetails.route) {
                 GroceryDetailsScreen(onBack = { navController.popBackStack() })
+            }
+            composable(Screen.DairyDetails.route) {
+                DairyDetailsScreen(onBack = { navController.popBackStack() })
             }
         }
     }
